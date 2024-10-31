@@ -1,0 +1,9 @@
+#!/bin/bash
+
+file_count() {
+    local count=$(ls -1 | wc -l)
+    echo "Number of files in the current directory: $count"
+}
+
+# Call the function
+file_count
